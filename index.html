@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link href="carousel.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Western Civilization: The Basics</title>
+
+  </head>
+  <body>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" style="background:url(http://i.imgur.com/b3bcL78.jpg) no-repeat center 20% fixed; background-size: cover">
+          <img class="first-slide" style="background:rgba(0,0,0,0.7)">
+          <div class="carousel-caption">
+          
+              <h1>Western Civilization: The Basics</h1>
+              <h4>Ex Europae Lumen</h4>
+              <hr>
+              <p>
+                <em>Western Civilization: The Basics</em> is an online education program specifically geared to STEM students and professionals who feel that they are missing the Classical basics education.
+                </p>
+                <p>
+                <p id="signup-success" class="text-success"></p>
+                <p id="signup-error" class="text-danger"></p>
+                    <form id="signup-form" class="form-inline" role="form" onsubmit="return signup(this); ;">
+                    <div class="form-group form-group-lg">
+                        <input class="form-control input-lg" id="email" type="email" required placeholder="Your E-Mail"></input>
+                        <button class="btn btn-lg btn-success" id="signup-button" type="submit" >Sign up!</button>
+                    </div>
+                </form>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.carousel -->
+
+    <div class="container marketing">
+    <h2>Who are we?</h1>
+    <hr/>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-circle" src="https://i.sli.mg/mtQWjG.png" width="140" height="140">
+          
+          <h2>Everitt <small>Instructor</small></h2>
+          <p>Everitt Foster is a non-practicing scientist, geological denomination, who converted to military history after undergrad, but has since entirely lapsed from academia. In 2010, after nearly a decade of almost solitary confinement in a tiny office with a pack of red pens and stacks of undergraduate essays, he lost faith and made a daring escape from graduate school. 
+        He has since returned to work on his PhD in European history which will hopefully be concluded in May of 2017. 
+        </p><p>
+He is the author of three books, Andy the Ninja, Autumn Leaves, and The Storm Fishers and Other Stories. But bis most interesting publication involved Michael Foucault and Dexter Morgan; use your imagination, or read Dexter and Philosophy: Mind Over Spatter. He enjoys the outdoors (rocks and astronomy), the indoors (books and video games) and various mental pharmaceuticals (again, use your imagination). 
+        </p><p>
+He lives in Texas. Mostly harmless. If found do not feed before midnight, caffinate regularly, and enjoy the ride.</p>
+        </div><!-- /.col-md-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Book club and library. <span class="text-muted">Review and reflection.</span></h2>
+          <p class="lead">We believe that by looking at books from different cultures around the world, or by looking at books by great authors of many nations we will enhance our understanding of the world and of the truly diverse and amazing people in it.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="https://i.sli.mg/bH9w59.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Discussion and debate. <span class="text-muted">Personal perspectives on nations and patriotism.</span></h2>
+          <p class="lead">We regularly get together and discuss both the theory as well as the practice of patriotism. We believe that by engaging with each other and testing out our viewpoints in debates we strengthen our understanding and broaden our perspectives.  <a href="https://discord.gg/Faxad7x" class="">Join us on Discord!</a></p>
+          
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" width="500" height="500" src="https://i.sli.mg/TSVjAm.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <!-- /END THE FEATURETTES -->
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <!--
+        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        -->
+        <div id="disqus_thread"></div>
+        <script>
+
+        var disqus_config = function () {
+            this.page.url = "https://resurgence-books.github.io/";  
+            this.page.identifier = "home"; 
+        };
+        
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = '//resurgence-1.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                        
+      </footer>
+
+    </div><!-- /.container -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyD3WXm79Lzl71oePs5TBqJv16X846WCxuk",
+        authDomain: "resurgence-4a0ea.firebaseapp.com",
+        databaseURL: "https://resurgence-4a0ea.firebaseio.com",
+        storageBucket: "resurgence-4a0ea.appspot.com",
+        messagingSenderId: "416205018026"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script>
+        var signupForm = document.getElementById('signup-form');
+        var signupSuccess = document.getElementById('signup-success');
+        var signupError = document.getElementById('signup-error');
+        var signupBtn = document.getElementById('signup-button');
+        var onSignupComplete = function(error) {
+          signupBtn.disabled = false;
+          if (error) {
+            signupError.innerHTML = 'Sorry. Could not signup.';
+          } else {
+            signupSuccess.innerHTML = 'Thanks for signing up!';
+            // hide the form
+            signupForm.style.display = 'none';
+          }
+        };
+        function signup(formObj) {
+            var database = firebase.database().ref('signups');
+            database.push({
+              email: formObj.email.value,
+            }, onSignupComplete);
+            signupBtn.disabled = true;
+            return false;
+        }
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-89547501-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
